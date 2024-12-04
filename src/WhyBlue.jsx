@@ -5,7 +5,7 @@ const WhyBlue = () => {
     return (
         <div className='whyblue_container my-5   container' data-aos='fade' data-aos-delay='500'>
             <div className='row justify-content-center column-gap-5'>
-                <div className='col-md-5 '>
+                <div className='col-md-5 col-lg-5'>
                     <div  className='alert  lh-sm wb_top'>
                        <h1 className='fw-bolder gradient-text '>Why Blue ?</h1>
                        
@@ -19,7 +19,7 @@ const WhyBlue = () => {
                         <button className='btn btn-primary'> Click Now</button>
                     </div>
                 </div>
-                <div className='col-md-5 border  '>
+                <div className='col-md-5 col-lg-5 border  '>
                     <div style={{height:'100%'}}>
                         <WhyBlueCarouselo/>
                     </div>
