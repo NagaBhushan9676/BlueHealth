@@ -242,7 +242,7 @@
 .lastIntro li{
   list-style: none;
 }
-@media(max-width:886px ){
+@media(max-width:906px ){
   .introContainer{
     padding: none !important;
   }
@@ -866,7 +866,7 @@ span>img{
     width: 100%;
   }
   .whyblue_container>div>.col-md-5{
-    column-gap: 2rem;
+    column-gap: 1.6rem;
   }
 }
 @media screen and (max-width:716px) {
