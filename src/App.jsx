@@ -26,6 +26,7 @@ function App() {
       once:true
     })
   },[])  
+
   return (
     <>
       <Navbar/>

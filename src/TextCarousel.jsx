@@ -42,7 +42,7 @@ const TextCarousel = () => {
 
    
     return (
-        <div className='text_caro_container my-2 p-5  text-capitalize'>
+        <div className='text_caro_container my-2 p-5  text-capitalize' data-bs-ride='corousel' data-bs-touch="true" >
              <div className='text_caro row d-flex align-items-center'>
                 <div className='pre_icon_div col-md-1 '>
                     {/* <button className="carousel-control-prev" type="button" onClick={handlePrev}  data-bs-slide="prev"> */}
@@ -53,7 +53,7 @@ const TextCarousel = () => {
                 </div>
                 <div className='col-md-10'>
                     <div>
-                        <div id="text_caro_example2" className="carousel carousel-fade" ref={caroExample2}  data-bs-touch="true">
+                        <div id="text_caro_example2" className="carousel carousel-fade" ref={caroExample2}   data-bs-ride='corousel' data-bs-touch="true">
                             <div className="carousel-inner text-center pb-4 text-danger-smphasis">
                                     <div className="carousel-item active">
                                         <h1> Sexual Health Monitering</h1>
@@ -73,7 +73,7 @@ const TextCarousel = () => {
                     <div>
                         <div className='row card_c_check'>
                             <div className='col-md-5  text_caro_card_div'>
-                                <div id="text_caro_example" className="carousel slide" ref={caroExample} data-bs-touch="true">
+                                <div id="text_caro_example" className="carousel slide" ref={caroExample} data-bs-touch="true" data-bs-ride='corousel' >
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
                                             <CheckCard Tret="Essential" OldPrice={6063} Price={1599} Dur={7} Par={91} />
@@ -91,7 +91,7 @@ const TextCarousel = () => {
                                 </div>
                             </div>
                             <div className='col-md-7 text_caro_img_div '>
-                                <div id="text_caro_example3 " className="carousel carousel-fade " ref={caroExample3}  data-bs-touch="true">
+                                <div id="text_caro_example3 " className="carousel carousel-fade " ref={caroExample3}  data-bs-touch="true" data-bs-ride='corousel' >
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
                                             <TextCaroImgCard src={Couples} str="Regular testing is essesntial for sexually active folks. Test discreetly"/>

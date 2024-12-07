@@ -3,7 +3,7 @@ import WhyBlueCarouselo from './WhyBlueCarouselo';
 
 const WhyBlue = () => {
     return (
-        <div className='whyblue_container my-5   container' data-aos='fade' data-aos-delay='500'>
+        <div className='whyblue_container my-5  ' data-aos='fade' data-aos-delay='500'>
             <div className='row justify-content-center column-gap-5'>
                 <div className='col-md-5 col-lg-5'>
                     <div  className='alert  lh-sm wb_top'>
