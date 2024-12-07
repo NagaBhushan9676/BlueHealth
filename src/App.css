@@ -255,6 +255,7 @@
     height: 250px !important;
   }
   .introCard{
+    height: max-content;
    padding: 40px auto auto auto;
   }
 }
@@ -614,7 +615,7 @@ span>img{
 }
 @media (min-width:950px) and (max-width:1000px){
   .car2Container{
-    height: 30vh;
+    height: 300px;
   }
 }
 @media only screen and (max-width:716px){
