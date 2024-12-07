@@ -614,9 +614,12 @@ span>img{
   justify-content: space-between;
 }
 @media (min-width:950px) and (max-width:1000px){
-  /* .car2Container{
+  .car2Container{
     height: 300px;
-  } */
+  }
+  .carouselItems>div>div{
+    height: 250px;
+  }
 }
 @media only screen and (max-width:716px){
   .car2Container{
@@ -1083,7 +1086,9 @@ background-color: #0022ff;
   display: flex;
   justify-content: center;
  } */
+ @media (min-width:950px) and (max-width:1000px){
   
+}
   @media only screen and 
  (max-width:716px){
   .text_caro_container{
