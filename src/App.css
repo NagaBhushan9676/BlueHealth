@@ -254,8 +254,8 @@
   .introContent{
     height: 250px !important;
   }
-  .introContainer{
-    height: 40vh;
+  .introCard{
+    height: min-content;
   }
 }
 @media(max-width:906px ){
