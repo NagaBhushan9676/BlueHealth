@@ -481,6 +481,11 @@ span>img{
 .mbcContainer>div>button{
   margin-top: 15px;
   border-radius: 15px;
+}@media (min-width:950px) and (max-width:1000px){
+  .mbcContainer{
+    
+    margin: 10px !important;
+  }
 }
 @media only screen and (max-width:716px){
   .mbcContainer{
@@ -606,6 +611,11 @@ span>img{
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-between;
+}
+@media (min-width:950px) and (max-width:1000px){
+  .car2Container{
+    height: 30vh;
+  }
 }
 @media only screen and (max-width:716px){
   .car2Container{

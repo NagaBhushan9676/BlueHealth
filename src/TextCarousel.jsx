@@ -72,7 +72,7 @@ const TextCarousel = () => {
                     </div>
                     <div>
                         <div className='row card_c_check'>
-                            <div className='col-md-5  text_caro_card_div'>
+                            <div className='col-md-6  text_caro_card_div'>
                                 <div id="text_caro_example" className="carousel slide" ref={caroExample} data-bs-touch="true" data-bs-ride='corousel' >
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
@@ -90,7 +90,7 @@ const TextCarousel = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-md-7 text_caro_img_div '>
+                            <div className='col-md-6 text_caro_img_div '>
                                 <div id="text_caro_example3 " className="carousel carousel-fade " ref={caroExample3}  data-bs-touch="true" data-bs-ride='corousel' >
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
