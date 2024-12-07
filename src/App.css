@@ -618,7 +618,7 @@ span>img{
     height: 200px;
   }
   .carouselItems>div>div{
-    height: 150px;
+    height: 190px;
   }
 }
 @media only screen and (max-width:716px){
@@ -1071,6 +1071,9 @@ background-color: #0022ff;
   width: 100%;
   list-style-type:none;
  }
+ .minWidth{
+  display: none;
+ }
  .textCaroicon{
   border-radius: 20px;
   border: none;
@@ -1098,6 +1101,11 @@ background-color: #0022ff;
   .pre_icon_div,.nex_icon_div{
     display: none !important;
   }
+  .minWidth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
   .tcimg{
       height: 160px !important;
       width: 120px !important;

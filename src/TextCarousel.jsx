@@ -45,7 +45,6 @@ const TextCarousel = () => {
         <div className='text_caro_container my-2 p-5  text-capitalize' data-bs-ride='corousel' data-bs-touch="true" >
              <div className='text_caro row d-flex align-items-center'>
                 <div className='pre_icon_div col-md-1 '>
-                    {/* <button className="carousel-control-prev" type="button" onClick={handlePrev}  data-bs-slide="prev"> */}
                     <button onClick={handlePrev} className='textCaroicon'>
                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                          <span className="visually-hidden">Previous</span>
@@ -119,12 +118,23 @@ const TextCarousel = () => {
                         </div>
                     </div>
                 </div>
-                <div className='nex_icon_div col-md-1 d-flex align-items-center'>
-                    {/* <button className="carousel-control-next" type="button" data-bs-target="#text_caro_example " data-bs-slide="next" > */}
-                    <button onClick={handleNext} className='textCaroicon'>
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Next</span>
-                    </button>
+                <div className=' col-md-1 d-flex align-items-center'>
+                    <div className="nex_icon_div">
+                        <button onClick={handleNext} className='textCaroicon'>
+                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div className="minWidth ">
+                            <button onClick={handlePrev} className='textCaroicon'>
+                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span className="visually-hidden">Previous</span>
+                            </button>
+                            <button onClick={handleNext} className='textCaroicon'>
+                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span className="visually-hidden">Next</span>
+                            </button>
+                        </div>
                 </div>
              </div>
         </div>
