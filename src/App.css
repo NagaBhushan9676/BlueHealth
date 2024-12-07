@@ -255,7 +255,7 @@
     height: 250px !important;
   }
   .introCard{
-    height: min-content;
+   padding: 40px auto auto auto;
   }
 }
 @media(max-width:906px ){
