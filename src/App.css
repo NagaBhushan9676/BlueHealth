@@ -254,7 +254,9 @@
   .introContent{
     height: 250px !important;
   }
-  
+  .introContainer{
+    height: max-content;
+  }
 }
 @media(max-width:906px ){
   .introContainer{
