@@ -614,9 +614,9 @@ span>img{
   justify-content: space-between;
 }
 @media (min-width:950px) and (max-width:1000px){
-  .car2Container{
+  /* .car2Container{
     height: 300px;
-  }
+  } */
 }
 @media only screen and (max-width:716px){
   .car2Container{
