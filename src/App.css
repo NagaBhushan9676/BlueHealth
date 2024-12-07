@@ -615,10 +615,10 @@ span>img{
 }
 @media (min-width:950px) and (max-width:1000px){
   .car2Container{
-    height: 300px;
+    height: 200px;
   }
   .carouselItems>div>div{
-    height: 250px;
+    height: 150px;
   }
 }
 @media only screen and (max-width:716px){
